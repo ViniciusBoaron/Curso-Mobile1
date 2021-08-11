@@ -1,0 +1,72 @@
+header{
+	background: #443344;
+}
+
+.header{
+	position: relative;
+	width: 95%;
+	margin: 0 auto;
+}
+
+nav{
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+
+.header li{
+	margin: 0 0 0 15px;
+	font-size: 22px;
+	font-weight: bold;
+	display: inline;
+}
+
+.header img{
+	width: 175px;
+}
+
+nav a{
+	color: #000000;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #332233;
+	text-decoration: underline;
+	font-weight: 200;
+}
+
+body{
+	font-family: "comic sans ms";
+	background: #998899;
+}
+
+.bod{
+	text-align: center;
+	border: 2px solid #331133;
+	margin: 15px;
+	background: #441144;
+}
+
+.title{
+	font-size: 100px;
+	text-align: center;
+	margin: 10px;
+	text-decoration: underline;
+}
+
+.sobre{
+	margin: 10px;
+	font-size: 40px;
+	background: #554455;
+	border: 2px solid #332233;
+}
+
+footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background: #332233;
+	text-align: center;
+	padding: 15px 0;
+}
