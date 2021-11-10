@@ -1,0 +1,91 @@
+body{
+	font-family: "comic sans ms";
+	background: #998899;
+}
+
+header{
+	background: #443344;
+	width: 100%;
+}
+
+.header{
+	position: relative;
+	width: 95%;
+	margin: 0 auto;
+}
+
+nav{
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+
+.header li{
+	margin: 0 0 0 15px;
+	font-size: 25px;
+	font-weight: bold;
+	display: inline;
+}
+
+.header img{
+	width: 15%;
+}
+
+nav a{
+	color: #000000;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+nav a:hover{
+	color: #332233;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+.post{
+	background: #554455;
+	border: 1px solid #331133;
+	margin: 0.5%;
+	border-radius: 5px;
+}
+
+.post video{
+	margin:  0.5%;
+	width: 25%;
+	border: 2px solid #220022;
+}
+
+.post ul{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.title{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.dsc{
+	font-size: 25px;
+}
+
+.imag{
+	margin-top: 3px;
+	margin-left: 3px;
+	width: 25%;
+	border: 2px solid #220022;
+}
+
+footer{
+	width: 100%;
+	position: static;
+	bottom: 0;
+	background: #332233;
+	text-align: center;
+	padding: 15px 0;
+}
+
+footer img{
+	width: 15%;
+}
